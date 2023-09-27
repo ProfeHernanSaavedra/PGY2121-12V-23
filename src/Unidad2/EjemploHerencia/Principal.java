@@ -12,7 +12,7 @@ public class Principal {
     public static void main(String[] args) {
         
         //Date fecha = new Date();
-       // RedSocial rs = new RedSocial();
+       // RedSocial rs = new RedSocial(); no se puede instanciar
         Instagram insta = new Instagram(100, "la mejor clase", true, "admin", "admin");
 //        Twitter twit = new Twitter(200, "balacera en bellavista", fecha, usuario, password);
         Twitter twit = new Twitter(200, "balacera en bellavista", new Date(), "adm", "1234");
