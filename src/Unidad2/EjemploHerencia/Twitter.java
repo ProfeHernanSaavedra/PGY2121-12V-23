@@ -58,6 +58,11 @@ public class Twitter extends RedSocial{
         return super.visualizar() + " " + this.getNoticia();  
     }
 
+    @Override
+    public void limpiar() {
+        System.out.println("Limpiar Twitter");
+    }
+
     
     
 }

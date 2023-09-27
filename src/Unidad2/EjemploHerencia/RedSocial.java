@@ -5,7 +5,7 @@ package Unidad2.EjemploHerencia;
  *
  * @author 
  */
-public class RedSocial {
+public abstract class RedSocial {
     
     protected String usuario,password;
 
@@ -43,4 +43,5 @@ public class RedSocial {
         return this.getUsuario();
     }
     
+    public abstract void limpiar();
 }

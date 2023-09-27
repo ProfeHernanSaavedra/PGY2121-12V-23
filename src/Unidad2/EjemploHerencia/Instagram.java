@@ -77,5 +77,8 @@ public class Instagram extends RedSocial{
         //return super.usuario + this.historia;
     }
     
-    
+    @Override
+    public void limpiar() {
+        System.out.println("Limpiar");
+    }
 }
